@@ -47,7 +47,7 @@ else:
 
 
       #login method 
-      attempts=0
+attempts=0
 password="tanmay"
 user=0
 while True:
