@@ -23,10 +23,10 @@ elif(choice==3):
       print("Insufficient Balance")
 else:     
     print("Enter you old PiN: ")
-    oldpin=int(input())
-    if(oldpin == pin):
+    old_pin=int(input())
+    if(old_pin == pin):
         print("Input your New PIN")
-        newpin=int(input())
+        new_pin=int(input())
         print("PIN changed")
     else:
         print("Invalid PIN")
